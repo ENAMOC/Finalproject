@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Logo ImageView -->
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="16dp" />
+
+    <!-- CardView for admin registration form -->
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardViewAdminRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:layout_centerInParent="true">
+
+        <!-- LinearLayout for EditTexts, Button, and TextViews -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- EditText for Admin Username -->
+            <EditText
+                android:id="@+id/editTextAdminUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Admin Username"
+                android:inputType="text" />
+
+            <!-- EditText for Admin Password -->
+            <EditText
+                android:id="@+id/editTextAdminPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Admin Password"
+                android:inputType="textPassword" />
+
+            <!-- EditText for Admin Name -->
+            <EditText
+                android:id="@+id/editTextAdminName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Admin Name"
+                android:inputType="text" />
+
+            <!-- EditText for Admin Mobile Number -->
+            <EditText
+                android:id="@+id/editTextAdminMobileNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Admin Mobile Number"
+                android:inputType="phone" />
+
+            <!-- Button for Admin Registration -->
+            <Button
+                android:id="@+id/buttonAdminRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register Admin" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

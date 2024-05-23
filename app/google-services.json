@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "624368541696",
+    "firebase_url": "https://rescmuemenamoc-default-rtdb.firebaseio.com",
+    "project_id": "rescmuemenamoc",
+    "storage_bucket": "rescmuemenamoc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624368541696:android:e7c5c70ca86bd01bebf8e5",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASxQSwf8DuVXMAVheaMrwvcM8PVl_SvCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624368541696:android:7706f76b50cd79c2ebf8e5",
+        "android_client_info": {
+          "package_name": "com.example.rescmuemenamoc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASxQSwf8DuVXMAVheaMrwvcM8PVl_SvCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624368541696:android:f09719f23180a284ebf8e5",
+        "android_client_info": {
+          "package_name": "com.example.rescuemeeee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASxQSwf8DuVXMAVheaMrwvcM8PVl_SvCk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
